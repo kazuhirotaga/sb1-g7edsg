@@ -1,0 +1,19 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "mongoose": "^6.5.2",
+    "node-cron": "^3.0.2",
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
